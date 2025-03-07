@@ -1,5 +1,3 @@
-import Link from "next/link";
-import GameCard from "./components/GameCard";
 import HeroSection from "./components/ui/HeroSection";
 
 export default function Home() {
