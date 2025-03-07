@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} 
         antialiased`} cz-shortcut-listen="true"
       >
-        <div><Navbar /></div>
+        <div className="relative w-full"><Navbar /></div>
         {children}
       </body>
     </html>
